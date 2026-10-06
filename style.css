@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.bagts {
+    background-image: url(pexels-parth-patel-2161339175-37930273.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ok {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);    
+}
+.pic1 {
+    width: 960px;
+    height: 600px;
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.asd1 {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic1 img {
+    width: 480px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.asd2 {
+    background-color: white;
+    width: 480px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0 40px;
+}
+
+.a1 {
+    color: rgb(24, 73, 73);
+    font-size: 20px;
+    font-weight: 600;
+}
+.asd3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.asd3 input[type="text"] {
+    width: 100%;
+    padding: 10px;
+}
+
+.a12 {
+    background-color: rgb(3, 53, 53);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
